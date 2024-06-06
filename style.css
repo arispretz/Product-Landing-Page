@@ -1,13 +1,31 @@
-<style>
-
 html {
   font-family: sans-serif;
   text-decoration: none;
 }
 
+body {
+  background-color: #EBF5FB;
+  background-image: url("https://cdn.glitch.global/7bdd6a1a-4527-4bfb-83be-9c9a33613c7a/snowfall.jpg?1717631958332");
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+main {
+  background-color: #ffffff;
+  margin: auto;
+  width: 85%;
+  height: 85%;
+  object-fit: fill;
+  opacity: 90%;
+  padding: 15px;
+}
+
 h1 {
    font-size: 24px;
    line-height: 2px;
+   text-align: center;
 }
 
 img {
@@ -16,14 +34,16 @@ img {
   object-fit: contain;
  }
   @media (max-width: 460px) {
- img:hover {
-   transform: scale(2.1);
+ 
+img:hover {
+  transform: scale(2.1);
  }
 }
- .img-size {
-   height: 100px;
-   width: 100px;
-   align-self: center;
+
+.img-size {
+  height: 100px;
+  width: 100px;
+  align-self: center;
 }
 
 .small-image {
@@ -39,6 +59,7 @@ nav {
   background-color: #F5B7B1;
   font-size: 20px;
   height: 35px;
+  padding-top: 10px;
 }
 
 #nav-bar {
@@ -66,15 +87,14 @@ nav {
   text-align: center;
 }
 
-h1 {
-  text-align: center;
-}
 #products {
   padding: 50px;
 }
+
 #about-us {
   padding: 50px;
 }
+
 #contact-us {
   padding: 50px;
 }
@@ -82,11 +102,12 @@ h1 {
 #testimonials {
   padding: 50px;
 }
+
 #box-testimonials {
   justify-content: center;
 }
 
-#testimonial-1, #testimonial-2, #testimonial-3 {
+.testimonial-1, .testimonial-2, .testimonial-3 {
   background-color: #E5E8E8;
   text-align: justify;
   margin: 30px;
@@ -102,8 +123,8 @@ h1 {
   height: 50px;
 }
 
-.copy, prove  {
-  font-family: times new roman;
+.copy, .prove  {
+  font-family: Sans-serif;
   font-size: 14px;
 }
 
@@ -117,7 +138,7 @@ h1 {
   border-color: #ffffff;
   align-items: center;
   justify-content: center;
-  font-family: verdana;
+  font-family: Sans-serif;
   font-size: 14px;
 }
 
@@ -200,7 +221,7 @@ h1 {
 }
 
 .price  {
-  font-family: arial narrow;
+  font-family: Sans-serif;
   font-size: 24px;
   line-height: 25px;
   font-weight: bolder;
@@ -214,24 +235,6 @@ h1 {
   color: #ffffff;
 }
 
-body {
-  background-color: #EBF5FB;
-  background-image: url("../images/snowfall.jpg");
-  margin: auto;
-  width: 100%;
-  height: 100%;
-  object-fit: fill;
-}
-
-main {
-  background-color: #ffffff;
-  margin: auto;
-  width: 85%;
-  height: 85%;
-  object-fit: fill;
-  opacity: 90%;
-  padding: 15px;
-}
 
 form {
   background-color: #5D6D7E;
@@ -251,5 +254,3 @@ form {
   opacity: 90%;
   justify-content: space-around;
 }
-
-</style>
